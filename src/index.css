@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Asemibold;
+  src: url(../public/archia-semibold-webfont.ttf);
+}
+
+@font-face {
+  font-family: Alight;
+  src: url(../public/archia-light-webfont.ttf);
+}
+@font-face {
+  font-family: Aregular;
+  src: url(../public/archia-regular-webfont.ttf);
+}
+
+*{
+  font-family: Asemibold;
+}
+
+::selection{
+  color: rgb(181, 153, 79);
+}
